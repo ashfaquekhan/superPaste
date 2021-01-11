@@ -3,7 +3,7 @@ from pynput.keyboard import Controller
 import pyperclip as pc 
 import pyfiglet
 
-ascii_banner = pyfiglet.figlet_format("Hello!!")
+ascii_banner = pyfiglet.figlet_format("superPaste")
 print(ascii_banner)
 kibord = Controller()
 def on_release(key):
